@@ -1,0 +1,55 @@
+.main {
+    flex-direction: column;
+    padding: 5% 20%;
+    justify-content: start;
+    height: fit-content;
+}
+
+.list {
+    list-style: none;
+    padding-left:0px;   
+}
+
+.alternative {
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 4px;
+    width: 100%;
+    padding: 1em 5em 1em 1em;
+    
+}
+
+.alternative:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.selected {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.wrong {
+    background-color: rgba(177, 60, 60, 0.3);
+}
+
+.correct {
+    background-color: rgba(61, 230, 101, 0.3);
+}
+
+.btn {
+    margin-top: 2em;
+}
+
+.ihidden{
+    display:none;
+}
+
+.h1Quiz{
+    margin: 0;
+    color: var(--dark-blue);
+}
+
+.iCheck{
+    color: var(--light-blue);
+    font-size: 6em;
+}

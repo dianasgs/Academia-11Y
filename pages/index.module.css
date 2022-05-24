@@ -1,0 +1,18 @@
+.cardsContainer {
+    flex-wrap: wrap;
+}
+
+.headerText{
+    font-size: 1em;
+    font-weight:normal;
+}
+.contato{
+    font-size: 1.2em;
+    margin-bottom: 10%;
+}
+.contato i{
+    color: var(--light-blue);
+    margin-right: 3%;
+   margin-top: 1px;
+}
+

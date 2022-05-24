@@ -1,0 +1,212 @@
+{
+    "1": {
+        "title": "Título do quiz",
+        "questions": [
+            {
+                
+                "statement": "(CESPE/CEBRASPE 2021) A garantia de acesso facilitado a uma página web por qualquer pessoa, independentemente das suas condições físicas, considerando-se fatores como interação e conteúdo, refere-se ao conceito de:", 
+                "alternatives": [
+                    {"text": "Storytelling"},
+                    {"text": "Acessibilidade", "correct": true},
+                    {"text": "Usabilidade"},
+                    {"text": "Experiência do usuário"}
+                ],
+                "explanation": "Essa é a definição de acessibilidade na web."
+            },
+            {
+               
+                "statement": "(FCC 2015) É considerado um recurso de acessibilidade para um software:", 
+                "alternatives": [
+                    {"text": "Garantir velocidade de acesso e processamento de dados."},
+                    {"text": "Possibilitar a interação por voz ou digitação.", "correct": true},
+                    {"text": "Contemplar todos os requisitos funcionais demandados pelos usuários."},
+                    {"text": "Disponibilidade 24 horas por dia e 7 dias por semana."},
+                    {"text": "Manter dados íntegros para uso."}
+                ],
+                "explanation": "Peguei do google tradutor"
+            }
+        ]
+    },
+    "2": { "title": "Título do quiz",
+        "questions": [
+            {
+                
+                "statement": "(CESPE/CEBRASPE 2021) A garantia de acesso facilitado a uma página web por qualquer pessoa, independentemente das suas condições físicas, considerando-se fatores como interação e conteúdo, refere-se ao conceito de:", 
+                "alternatives": [
+                    {"text": "Storytelling"},
+                    {"text": "Acessibilidade", "correct": true},
+                    {"text": "Usabilidade"},
+                    {"text": "Experiência do usuário"}
+                ],
+                "explanation": "Essa é a definição de acessibilidade na web."
+            },
+            {
+               
+                "statement": "(FCC 2015) É considerado um recurso de acessibilidade para um software:", 
+                "alternatives": [
+                    {"text": "Garantir velocidade de acesso e processamento de dados."},
+                    {"text": "Possibilitar a interação por voz ou digitação.", "correct": true},
+                    {"text": "Contemplar todos os requisitos funcionais demandados pelos usuários."},
+                    {"text": "Disponibilidade 24 horas por dia e 7 dias por semana."},
+                    {"text": "Manter dados íntegros para uso."}
+                ],
+                "explanation": "Peguei do google tradutor"
+            }
+        ]},
+    "3": { "title": "Título do quiz",
+        "questions": [
+            {
+                
+                "statement": "(CESPE/CEBRASPE 2021) A garantia de acesso facilitado a uma página web por qualquer pessoa, independentemente das suas condições físicas, considerando-se fatores como interação e conteúdo, refere-se ao conceito de:", 
+                "alternatives": [
+                    {"text": "Storytelling"},
+                    {"text": "Acessibilidade", "correct": true},
+                    {"text": "Usabilidade"},
+                    {"text": "Experiência do usuário"}
+                ],
+                "explanation": "Essa é a definição de acessibilidade na web."
+            },
+            {
+               
+                "statement": "(FCC 2015) É considerado um recurso de acessibilidade para um software:", 
+                "alternatives": [
+                    {"text": "Garantir velocidade de acesso e processamento de dados."},
+                    {"text": "Possibilitar a interação por voz ou digitação.", "correct": true},
+                    {"text": "Contemplar todos os requisitos funcionais demandados pelos usuários."},
+                    {"text": "Disponibilidade 24 horas por dia e 7 dias por semana."},
+                    {"text": "Manter dados íntegros para uso."}
+                ],
+                "explanation": "Peguei do google tradutor"
+            }
+        ]},
+    "4": { "title": "Título do quiz",
+        "questions": [
+            {
+                
+                "statement": "(CESPE/CEBRASPE 2021) A garantia de acesso facilitado a uma página web por qualquer pessoa, independentemente das suas condições físicas, considerando-se fatores como interação e conteúdo, refere-se ao conceito de:", 
+                "alternatives": [
+                    {"text": "Storytelling"},
+                    {"text": "Acessibilidade", "correct": true},
+                    {"text": "Usabilidade"},
+                    {"text": "Experiência do usuário"}
+                ],
+                "explanation": "Essa é a definição de acessibilidade na web."
+            },
+            {
+               
+                "statement": "(FCC 2015) É considerado um recurso de acessibilidade para um software:", 
+                "alternatives": [
+                    {"text": "Garantir velocidade de acesso e processamento de dados."},
+                    {"text": "Possibilitar a interação por voz ou digitação.", "correct": true},
+                    {"text": "Contemplar todos os requisitos funcionais demandados pelos usuários."},
+                    {"text": "Disponibilidade 24 horas por dia e 7 dias por semana."},
+                    {"text": "Manter dados íntegros para uso."}
+                ],
+                "explanation": "Peguei do google tradutor"
+            }
+        ]},
+    "5": { "title": "Título do quiz",
+        "questions": [
+            {
+                
+                "statement": "(CESPE/CEBRASPE 2021) A garantia de acesso facilitado a uma página web por qualquer pessoa, independentemente das suas condições físicas, considerando-se fatores como interação e conteúdo, refere-se ao conceito de:", 
+                "alternatives": [
+                    {"text": "Storytelling"},
+                    {"text": "Acessibilidade", "correct": true},
+                    {"text": "Usabilidade"},
+                    {"text": "Experiência do usuário"}
+                ],
+                "explanation": "Essa é a definição de acessibilidade na web."
+            },
+            {
+               
+                "statement": "(FCC 2015) É considerado um recurso de acessibilidade para um software:", 
+                "alternatives": [
+                    {"text": "Garantir velocidade de acesso e processamento de dados."},
+                    {"text": "Possibilitar a interação por voz ou digitação.", "correct": true},
+                    {"text": "Contemplar todos os requisitos funcionais demandados pelos usuários."},
+                    {"text": "Disponibilidade 24 horas por dia e 7 dias por semana."},
+                    {"text": "Manter dados íntegros para uso."}
+                ],
+                "explanation": "Peguei do google tradutor"
+            }
+        ]},
+    "6": { "title": "Título do quiz",
+        "questions": [
+            {
+                
+                "statement": "(CESPE/CEBRASPE 2021) A garantia de acesso facilitado a uma página web por qualquer pessoa, independentemente das suas condições físicas, considerando-se fatores como interação e conteúdo, refere-se ao conceito de:", 
+                "alternatives": [
+                    {"text": "Storytelling"},
+                    {"text": "Acessibilidade", "correct": true},
+                    {"text": "Usabilidade"},
+                    {"text": "Experiência do usuário"}
+                ],
+                "explanation": "Essa é a definição de acessibilidade na web."
+            },
+            {
+               
+                "statement": "(FCC 2015) É considerado um recurso de acessibilidade para um software:", 
+                "alternatives": [
+                    {"text": "Garantir velocidade de acesso e processamento de dados."},
+                    {"text": "Possibilitar a interação por voz ou digitação.", "correct": true},
+                    {"text": "Contemplar todos os requisitos funcionais demandados pelos usuários."},
+                    {"text": "Disponibilidade 24 horas por dia e 7 dias por semana."},
+                    {"text": "Manter dados íntegros para uso."}
+                ],
+                "explanation": "Peguei do google tradutor"
+            }
+        ]},
+    "7": { "title": "Título do quiz",
+        "questions": [
+            {
+                
+                "statement": "(CESPE/CEBRASPE 2021) A garantia de acesso facilitado a uma página web por qualquer pessoa, independentemente das suas condições físicas, considerando-se fatores como interação e conteúdo, refere-se ao conceito de:", 
+                "alternatives": [
+                    {"text": "Storytelling"},
+                    {"text": "Acessibilidade", "correct": true},
+                    {"text": "Usabilidade"},
+                    {"text": "Experiência do usuário"}
+                ],
+                "explanation": "Essa é a definição de acessibilidade na web."
+            },
+            {
+               
+                "statement": "(FCC 2015) É considerado um recurso de acessibilidade para um software:", 
+                "alternatives": [
+                    {"text": "Garantir velocidade de acesso e processamento de dados."},
+                    {"text": "Possibilitar a interação por voz ou digitação.", "correct": true},
+                    {"text": "Contemplar todos os requisitos funcionais demandados pelos usuários."},
+                    {"text": "Disponibilidade 24 horas por dia e 7 dias por semana."},
+                    {"text": "Manter dados íntegros para uso."}
+                ],
+                "explanation": "Peguei do google tradutor"
+            }
+        ]},
+    "8": { "title": "Título do quiz",
+        "questions": [
+            {
+                
+                "statement": "(CESPE/CEBRASPE 2021) A garantia de acesso facilitado a uma página web por qualquer pessoa, independentemente das suas condições físicas, considerando-se fatores como interação e conteúdo, refere-se ao conceito de:", 
+                "alternatives": [
+                    {"text": "Storytelling"},
+                    {"text": "Acessibilidade", "correct": true},
+                    {"text": "Usabilidade"},
+                    {"text": "Experiência do usuário"}
+                ],
+                "explanation": "Essa é a definição de acessibilidade na web."
+            },
+            {
+               
+                "statement": "(FCC 2015) É considerado um recurso de acessibilidade para um software:", 
+                "alternatives": [
+                    {"text": "Garantir velocidade de acesso e processamento de dados."},
+                    {"text": "Possibilitar a interação por voz ou digitação.", "correct": true},
+                    {"text": "Contemplar todos os requisitos funcionais demandados pelos usuários."},
+                    {"text": "Disponibilidade 24 horas por dia e 7 dias por semana."},
+                    {"text": "Manter dados íntegros para uso."}
+                ],
+                "explanation": "Peguei do google tradutor"
+            }
+        ]}
+}
