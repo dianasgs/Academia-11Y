@@ -1,6 +1,6 @@
 .main {
     flex-direction: column;
-    padding: 5% 20%;
+    padding: 50px 20%;
     justify-content: start;
     height: fit-content;
 }
@@ -52,4 +52,11 @@
 .iCheck{
     color: var(--light-blue);
     font-size: 6em;
+}
+
+@media (max-width:990px){
+    .main{
+        padding: 50px 10%;
+    }
+
 }

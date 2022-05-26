@@ -1,6 +1,6 @@
 {
     "1": {
-        "title": "Título do quiz",
+        "title": "Acessibilidade digital: o que é e para quem?",
         "questions": [
             {
                 
@@ -23,7 +23,43 @@
                     {"text": "Disponibilidade 24 horas por dia e 7 dias por semana."},
                     {"text": "Manter dados íntegros para uso."}
                 ],
-                "explanation": "Peguei do google tradutor"
+                "explanation": "Possibilitar formas alternativas de interação, como permitir que o usuário use comandos de voz, é considerado um recurso de acessibilidade."
+            },
+            {
+               
+                "statement": "(FGV 2017) Prover alternativas textuais para imagens e vídeos, prover tempo suficiente para a leitura e uso do conteúdo e tornar todos os recursos e funções acessíveis pelo teclado são recomendações de:", 
+                "alternatives": [
+                    {"text": "Projeto gráfico"},
+                    {"text": "Usabilidade"},
+                    {"text": "Interatividade"},
+                    {"text": "Programação"},
+                    {"text": "Acessibilidade", "correct": true}
+                ],
+                "explanation": "Essas são recomendações de acessibilidade."
+            },
+            {
+               
+                "statement": "(Quadrix 2012) Analise os itens, a seguir, relacionados ao desenvolvimento de interfaces do usuário na web. \n I. Acessibilidade na web engloba todas as deficiências que afetam o acesso na web, incluindo a fala, deficiências visuais, auditivas, físicas, cognitivas e neurológicas. \n II. A navegabilidade é um item importante em um site, pois ela se constitui na organização da informação para que o usuário navegue de forma intuitiva e saiba onde está, de onde veio e quais são as suas possibilidades futuras de acesso. \n III. A comunicabilidade é a propriedade de um sistema de transmitir ao usuário de forma eficaz e eficiente as intenções e princípios de interação que guiaram o seu design. \n IV. A usabilidade de um sistema é um conceito que se refere à qualidade da interação dos usuários com o sistema e depende de vários aspectos, como facilidade de aprendizado do sistema, facilidade de uso, satisfação do usuário, flexibilidade e produtividade.", 
+                "alternatives": [
+                    {"text": "I, II, III e IV." , "correct": true},
+                    {"text": "I e II, apenas."},
+                    {"text": "III e IV, apenas."},
+                    {"text": "IV, apenas."},
+                    {"text": "II e IV, apenas."}
+                ],
+                "explanation": "Todos os itens estão corretos."
+            },
+            {
+               
+                "statement": "(Instituto AOCP 2020) Toda pessoa com deficiência tem direito à igualdade de oportunidades com as demais pessoas e não sofrerá nenhuma espécie de discriminação. Considera-se discriminação em razão da deficiência toda forma de", 
+                "alternatives": [
+                    {"text": "garantia de tratamento diferente das demais pessoas sem deficiência." },
+                    {"text": "distinção, restrição ou inclusão, por ação ou omissão."},
+                    {"text": "recusa de adaptações razoáveis e de fornecimento de tecnologias assistivas.", "correct": true},
+                    {"text": "reconhecimento dos direitos e das liberdades fundamentais de pessoa com deficiência."}
+                 
+                ],
+                "explanation": "Lei 13.146/15 \n Art. 4 \n §1. Considera-se discriminação em razão da deficiência toda forma de distinção, restrição ou exclusão, por ação ou omissão, que o propósito ou o efeito de prejudicar, impedir ou anular o reconhecimento ou o exercício dos direitos e das liberdades fundamentais de pessoa com deficiência, incluindo a recusa de adaptações razoáveis e de fornecimento de tecnologias assistivas."
             }
         ]
     },

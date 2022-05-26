@@ -6,8 +6,8 @@
     cursor: pointer;
     position: absolute;
     left: 10px;
-    top: 10px;
-    color: white;
+    top: 115px;
+    color: var(--dark-blue);
 }
 
 .backarrowContainer:hover {

@@ -3,6 +3,7 @@ import Header from "../../../components/header/header";
 import styles from "./../lessonpage.module.css";
 import Image from "next/image";
 import GoToQuizBtn from "../../../components/gotoquizbtn/gotoquizbtn";
+import { Helmet } from "react-helmet";
 
 export default function LessonPage() {
   return (
@@ -10,6 +11,12 @@ export default function LessonPage() {
       <BackArrow />
       <Header />
       <div className={`flex ${styles.main}`}>
+        <Helmet>
+          <title>
+            {" "}
+            Acessibilidade digital: o que é e pra quem? - Academia 11Y
+          </title>
+        </Helmet>
         <h1>Lição 1 - Acessibilidade digital: o que é e pra quem?</h1>
 
         <h2>O que é acessibilidade?</h2>
@@ -25,28 +32,41 @@ export default function LessonPage() {
           reduzida.”{" "}
         </p>
 
+        <figure className={styles.lessonPagefigure}>
+          <Image
+            src="/bancada_adaptada.jpg"
+            alt="Uma mulher branca, de cabelos ruivos e cadeirante sorri enquanto prepara uma salada de frutas na bancada de sua cozinha, cuja altura é adaptada para pessoas em cadeiras de rodas."
+            width={300}
+            height={300}
+          />
+          <figcaption>Fonte: Marcus Aurelius no Pexels</figcaption>
+        </figure>
+
         <p>
           A acessibilidade ajuda a garantir os direitos de todos os cidadãos,
           auxiliando na construção de uma sociedade mais equitativa. A
           acessibilidade tem aplicações em praticamente qualquer área que
           envolve pessoas, tanto no processo de criação quanto na utilização do
-          produto final gerado. Exemplos comuns são adaptações feitas para
-          pessoas com deficiência na arquitetura e na moda.
+          produto final gerado.
+        </p>
+        <p>
+          Exemplos comuns são adaptações feitas para pessoas com deficiência na
+          arquitetura e na moda, tais como bancadas de cozinha com altura
+          adaptada para pessoas que utilizam cadeiras de rodas ou uniformes
+          inclusivos para atletas paralímpicos.
         </p>
 
-        <Image
-          src="/bancada_adaptada.jpg"
-          alt="Uma mulher branca, de cabelos ruivos e cadeirante sorri enquanto prepara uma salada de frutas na bancada de sua cozinha, cuja altura é adaptada para pessoas em cadeiras de rodas."
-          width={300}
-          height={300}
-        />
-
-        <Image
-          src="/uniformes_inclusivos.jpg"
-          alt="Oito atletas paralímpicos de gêneros, raças e com deficiências diferentes usam os uniformes nas cores preta, azul e amarela da linha inclusiva criada pelo Comitê Paralímpico Brasileiro para os Jogos ParapanAmericanos de Lima 2019."
-          width={300}
-          height={300}
-        />
+        <figure className={styles.lessonPagefigure}>
+          <Image
+            src="/uniformes_inclusivos.jpg"
+            alt="Oito atletas paralímpicos de gêneros, raças e com deficiências diferentes usam os uniformes nas cores preta, azul e amarela da linha inclusiva criada pelo Comitê Paralímpico Brasileiro para os Jogos ParapanAmericanos de Lima 2019."
+            width={300}
+            height={300}
+          />
+          <figcaption>
+            Fonte: Flickr do Comitê Paralímpico Brasileiro
+          </figcaption>
+        </figure>
 
         <h2>Acessibilidade Digital e Web</h2>
         <p>
@@ -54,12 +74,16 @@ export default function LessonPage() {
           acessibilidade digital e web. A acessibilidade digital, mais
           abrangente, é definida pela eliminação de barreiras de aplicações Web,
           Mobile e Desktop que impedem ou dificultam a interação entre o usuário
-          e o sistema. Quando falamos de acessibilidade web, estamos tratando
-          especificamente das barreiras presentes em sites na Internet. Essas
-          barreiras ou obstáculos podem ser qualquer característica que impeça
-          alguém de navegar pelo sistema, compreender totalmente seu conteúdo ou
-          realizar operações e eliminá-las pode trazer benefícios para todo
-          mundo, mas principalmente para pessoas com deficiência.
+          e o sistema.
+        </p>
+
+        <p>
+          Quando falamos de acessibilidade web, estamos tratando especificamente
+          das barreiras presentes em sites na Internet. Essas barreiras ou
+          obstáculos podem ser qualquer característica que impeça alguém de
+          navegar pelo sistema, compreender totalmente seu conteúdo ou realizar
+          operações e eliminá-las pode trazer benefícios para todo mundo, mas
+          principalmente para pessoas com deficiência.
         </p>
 
         <h2>Quem se beneficia da acessibilidade digital?</h2>
@@ -122,12 +146,15 @@ export default function LessonPage() {
           </li>
         </ul>
 
-        <Image
-          src="/deficiencia_temporaria.jpg"
-          alt="Ilustração de uma mulher negra com o braço direito engessado, sentada a uma mesa, tentando utilizar o mouse com a mão esquerda."
-          width={300}
-          height={300}
-        />
+        <figure className={styles.lessonPagefigure}>
+          <Image
+            src="/deficiencia_temporaria.jpg"
+            alt="Ilustração de uma mulher negra com o braço direito engessado, sentada a uma mesa, tentando utilizar o mouse com a mão esquerda."
+            width={300}
+            height={300}
+          />
+          <figcaption>Fonte: W3C Brasil</figcaption>
+        </figure>
 
         <h3>Pessoas com idade avançada</h3>
         <p>
@@ -188,12 +215,114 @@ export default function LessonPage() {
         </p>
 
         <h2>Referências</h2>
+
         <a
+          className={styles.lessonPageLink}
           href="http://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2015/Lei/L13146.htm"
           target="_blank"
           rel="noreferrer"
         >
           Lei Brasileira de Inclusão da Pessoa com Deficiência
+        </a>
+
+        <a
+          className={styles.lessonPageLink}
+          href="https://www.ibge.gov.br/estatisticas/sociais/saude/9662-censo-demografico-2010.html?=&t=publicacoes"
+          target="_blank"
+          rel="noreferrer"
+        >
+          IBGE - Censo Demográfico 2010
+        </a>
+
+        <a
+          className={styles.lessonPageLink}
+          href="https://www.ibge.gov.br/estatisticas/sociais/trabalho/17270-pnad-continua.html?edicao=27258&t=resultados"
+          target="_blank"
+          rel="noreferrer"
+        >
+          IBGE -Pesquisa Nacional por Amostra de Domicílios Contínua 2019
+        </a>
+
+        <a
+          className={styles.lessonPageLink}
+          href="https://www.ibge.gov.br/estatisticas/sociais/trabalho/17270-pnad-continua.html?edicao=27258&t=resultados"
+          target="_blank"
+          rel="noreferrer"
+        >
+          IBGE -Pesquisa Nacional por Amostra de Domicílios Contínua 2019
+        </a>
+
+        <a
+          className={styles.lessonPageLink}
+          href="https://www.w3c.br/pub/Materiais/PublicacoesW3C/cartilha-w3cbr-acessibilidade-web-fasciculo-II.pdf 
+          "
+          target="_blank"
+          rel="noreferrer"
+        >
+          Cartilha Acessibilidade na Web da W3C Brasil: Fascículo II -
+          Benefícios, Legislação e Diretrizes de Acessibilidade na Web
+        </a>
+
+        <h2>Para saber mais</h2>
+        <a
+          className={styles.lessonPageLink}
+          href="https://www.youtube.com/watch?v=v22X8tVuhBc&ab_channel=WebParaTodos 
+          "
+          target="_blank"
+          rel="noreferrer"
+        >
+          Principais barreiras web para pessoas com deficiencia (vídeo)
+        </a>
+
+        <a
+          className={styles.lessonPageLink}
+          href="https://www.youtube.com/watch?v=dhVHGjUCgak&ab_channel=WebParaTodos 
+          "
+          target="_blank"
+          rel="noreferrer"
+        >
+          Depoimento de barreiras para pessoas neurodiversas (vídeo)
+        </a>
+
+        <a
+          className={styles.lessonPageLink}
+          href="https://www.youtube.com/watch?v=TNJ8cbMLs10&ab_channel=WebParaTodos 
+          "
+          target="_blank"
+          rel="noreferrer"
+        >
+          Depoimento de barreiras para pessoas surdas (vídeo)
+        </a>
+
+        <a
+          className={styles.lessonPageLink}
+          href="https://mwpt.com.br/blog/ 
+          "
+          target="_blank"
+          rel="noreferrer"
+        >
+          Blog do Movimento Web Para Todos
+        </a>
+
+        <a
+          className={styles.lessonPageLink}
+          href="https://www.instagram.com/msales/?hl=pt-br  
+          "
+          target="_blank"
+          rel="noreferrer"
+        >
+          Instagram do Marcelo Sales, especialista em acessibilidade digital
+        </a>
+
+        <a
+          className={styles.lessonPageLink}
+          href="https://open.spotify.com/episode/5fkO1Yx1WVpRNOYF0LtaHL   
+          "
+          target="_blank"
+          rel="noreferrer"
+        >
+          Podcast Ouça Mais Alto #6 : Incluindo Pessoas com Deficiência na
+          Tecnologia (transcrição disponível)
         </a>
 
         <GoToQuizBtn id={1} />

@@ -5,6 +5,7 @@ import db from "./../../data/db.json";
 import React, { useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import { Helmet } from "react-helmet";
 
 export default function Quiz({ id }) {
   const router = useRouter();
@@ -98,6 +99,9 @@ export default function Quiz({ id }) {
     <>
       <BackArrow />
       <Header />
+      <Helmet>
+        <title> Quiz {quiz.title} - Academia 11Y</title>
+      </Helmet>
       <div className={`flex ${styles.main}`}>
         <h1 className={styles.h1Quiz}>
           Quiz {id} - {quiz.title}
@@ -116,7 +120,7 @@ export default function Quiz({ id }) {
         )}
         {lastQuestion && lastQuiz && (
           <>
-            <i className={`bi bi-patch-check ${styles.iCheck}`}></i>
+            <img alt="" aria-hidden="true" src="/trophy.png"></img>
             <p>
               Parabéns! Você concluiu o quiz {id} e completou a Academia 11Y.
             </p>
@@ -141,7 +145,7 @@ export default function Quiz({ id }) {
           </>
         )}
 
-        {confirmed && question.explanation}
+        {confirmed && <p aria-live="polite">{question.explanation}</p>}
 
         {!confirmed && questionID < quiz.questions.length && (
           <button

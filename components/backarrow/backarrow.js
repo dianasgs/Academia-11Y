@@ -18,7 +18,7 @@ export default function BackArrow() {
       role="button"
       aria-label="voltar para página anterior"
     >
-      <FaArrowLeft className={styles.arrow} /> Voltar
+      <FaArrowLeft aria-hidden="true" className={styles.arrow} /> Voltar
     </div>
   );
 }

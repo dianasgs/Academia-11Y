@@ -1,12 +1,20 @@
 import LessonCard from "../components/lessoncard/lessoncard";
 import styles from "./index.module.css";
+import { Helmet } from "react-helmet";
 
 export default function Home() {
   return (
     <div className={`f col`}>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Academia 11Y - Aprenda sobre acessibilidade digital</title>
+        <link rel="canonical" href="https://academia11y.vercel.app/" />
+      </Helmet>
       <header className={` f col`}>
         <a
-          href="https://your-url"
+          href="https://github.com/dianasgs/Academia-11Y"
+          target="_blank"
+          rel="noreferrer"
           className="github-corner"
           aria-label="Colabore com o projeto no Github"
         >
@@ -30,7 +38,13 @@ export default function Home() {
             ></path>
           </svg>
         </a>
-        <img className="logo" src="/logo.png" alt="logo da Academia 11y" />
+        <img
+          className="logo"
+          src="/logo.png"
+          alt="logo da Academia 11y"
+          width={300}
+          height={100}
+        />
         <h1 className={styles.headerText}>Aprenda sobre acessibilidade web</h1>
       </header>
       <main className={`col f`}>
@@ -92,7 +106,7 @@ export default function Home() {
       </main>
       <footer className={`${styles.footer} flex `}>
         Este site foi criado por Diana de Sales em 2022 como parte de seu
-        trabalho de conclusão de curso
+        trabalho de conclusão de curso.
       </footer>{" "}
     </div>
   );
